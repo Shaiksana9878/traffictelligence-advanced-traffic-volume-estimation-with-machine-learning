@@ -1,0 +1,41 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "8CPsICJjoezg"
+      },
+      "outputs": [],
+      "source": [
+        "from sklearn.preprocessing import OneHotEncoder\n",
+        "import pickle\n",
+        "\n",
+        "# Example categories\n",
+        "X = [['Male'], ['Female'], ['Female'], ['Male']]\n",
+        "\n",
+        "# Fit encoder\n",
+        "encoder = OneHotEncoder()\n",
+        "encoder.fit(X)\n",
+        "\n",
+        "# Save encoder to encoder.pkl\n",
+        "with open('encoder.pkl', 'wb') as f:\n",
+        " a   pickle.dump(encoder, f)"
+      ]
+    }
+  ]
+}
