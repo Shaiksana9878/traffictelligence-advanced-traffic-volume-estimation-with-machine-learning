@@ -1,0 +1,32 @@
+
+# === Core Libraries ===
+numpy              # For numerical operations
+pandas             # (Used in notebook, assumed for preprocessing)
+
+# === Machine Learning ===
+scikit-learn       # For scaling and prediction (StandardScaler, model)
+xgboost            # Used in model (if applicable)
+joblib             # Optional if used instead of pickle
+
+# === Web Application ===
+flask              # To build the web interface
+jinja2             # Flask's templating engine (used via render_template)
+
+# === Visualization (Optional, for notebook or frontend enhancements)
+matplotlib         # For plots
+seaborn            # For prettier plots
+plotly             # Optional: for interactive graphs
+
+# === File Handling
+openpyxl           # Only if Excel files are read in .ipynb
+
+# === Deployment (Optional)
+gunicorn           # Production WSGI server (useful for cloud deploy)
+
+# === Development
+python-dotenv      # Optional: manage environment variables (e.g., secrets)
+
+# === Notes:
+# - 'pickle' and 'os' are built-in Python modules and don't need to be listed.
+# - Jupyter is not included unless you're sharing the notebook via Binder or similar.
+
