@@ -1,0 +1,5 @@
+TrafficTelligence-Advanced-Traffic-Volume-Estimation-With-Machine-Learning
+
+Description:
+            TrafficTelligence is an intelligent traffic analysis system designed to estimate real-time and future traffic volumes using advanced machine learning techniques.
+                               The goal is to enhance traffic management and urban planning by accurately predicting vehicle flow based on environmental and temporal conditions.
